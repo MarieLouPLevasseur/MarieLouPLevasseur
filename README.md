@@ -16,12 +16,10 @@ Actuellement en pleine reconversion, je fais mes premiers pas dans le développe
 
 </br>
 
-```mermaid
     "Je n’ai pas échouée. J’ai juste trouvé 10 000 façons qui ne fonctionneront pas."
     "I did not fail. I found 10000 ways that won't work."
         (Thomas Edison)
-   
-```
+
 
 
 </br>
