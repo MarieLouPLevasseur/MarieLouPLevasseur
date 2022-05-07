@@ -1,7 +1,8 @@
 
 
 
-![GHstats](https://github-readme-stats.vercel.app/api?username=MarieLouPLevasseur&show_icons=true)
+<!-- ![GHstats](https://github-readme-stats.vercel.app/api?username=MarieLouPLevasseur&show_icons=true) -->
+
 
 ### Hi there 👋 Bonjour à tous
 
@@ -20,6 +21,7 @@ Actuellement en pleine reconversion, je fais mes premiers pas dans le développe
     "I did not fail. I found 10000 ways that won't work."
         (Thomas Edison)
 
+<img  style="float: right" width="250px" src="https://i.gifer.com/7S7L.gif">
 
 
 </br>
@@ -31,7 +33,11 @@ Actuellement en pleine reconversion, je fais mes premiers pas dans le développe
 
 <br/><br/><br/>
 
+### ***Contacts***
 
+<a href="www.linkedin.com/in/MarieLou-Prince-Levasseur-web-developpeur"><img width="80px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original-wordmark.svg"/> 
+<br/>
+<a href="https://twitter.com/sunnymary007"><img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg"/>
 
 
 <!--
