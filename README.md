@@ -21,15 +21,29 @@ Actuellement en pleine reconversion, je fais mes premiers pas dans le développe
     "I did not fail. I found 10000 ways that won't work."
         (Thomas Edison)
 
-<img  style="float: right" width="250px" src="https://i.gifer.com/7S7L.gif">
 
 
 </br>
 
-### ***Languages et techniques en cours d'apprentissage***
+### ***Languages et techniques avec de bonnes bases***
+##### (languagues with great knowlegdes)
+
+<img align="left" width="65px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" /><img align="left" width="65px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" /><img align="left" width="90px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" /><img align="left" width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" /><img align="left" width="80px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" /> <img align="left" width="70px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" />
+
+
+<img align="left" width="70px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/symfony/symfony-original-wordmark.svg" />
+
+
+<br/><br/><br/>
+
+
+### ***Languages et techniques en cours d'apprentissages***
 ##### (languagues in learning)
 
-<img align="left" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" /><img align="left" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" /><img align="left" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" /><img align="left" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />        
+
+
+  
+
 
 <br/><br/><br/>
 
