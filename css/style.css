@@ -1,0 +1,371 @@
+
+    /* applications générales */
+    *{
+        box-sizing: border-box;
+        /* color: black; */
+        
+    }
+
+    a:focus{
+        color: blueviolet;
+    }
+
+    body {
+        /* background-color: rgb(36, 35, 35);  */
+        background-image: url('../images/filet.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+
+    }
+
+    section, footer{
+        background-color: white;
+        margin-top: 50px;
+        /* padding: 20px; */
+        opacity: 85%;
+        min-height: 150px;
+    }
+
+    .wrapper{
+        width: 100vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10vh;    
+    }
+
+    nav li{
+        /* background-color: red; */
+        font-size: 2em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+
+    }
+
+                                /* menu déroulant */
+    label, #toggle{
+        display: none;
+    }
+
+
+    .header-navigation{
+        margin-top: 30px;
+    }
+
+
+
+    a:hover, .navigation-text:hover{
+        color: red;
+        font-style: oblique;
+        
+    }
+
+
+                            /* bannière principale */
+    /* header{
+    } */
+
+    .content{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .header-banner{
+
+        display: flex;
+        height: auto;
+        margin-top: 10px;
+        z-index: 1;    
+    }
+
+    .header-banner_text{
+        background-color: rgb(232, 229, 238);
+        font-size: 2em;
+        align-self: center;
+        text-align: center;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+                            /* Bannière de section */
+
+    .content{
+        width: auto;
+    }
+
+    .header-banner{
+
+        width: auto;
+    }
+
+    .content-banner{
+        background-color: black;
+        width: 100%;
+        display: block;
+        display: flex;
+        position:relative;
+        height: 50px;
+    }
+    
+    .banner-picture{
+        width: 100%;
+        height: 100px;
+
+    }
+
+
+        .banner-subtitle{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: white;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 2em;
+        text-align: center;
+        margin: auto;
+        
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 20px;
+
+    } 
+
+
+    /* petit photo dans le texte */
+
+    .banner-picture_small{
+        width: 250px;
+        display: block;
+        height: auto;
+        margin: auto;
+        /* float: left; */
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    #competence img{
+        display: block;
+        /* width: 200px; */
+        /* height: auto; */
+        margin: auto;
+    }
+    .portefolio_img{
+        display: block;
+        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px;
+        
+
+    }
+
+    #parcours{
+    display: absolute;
+    /* box-sizing: border-box ; */
+    }
+
+    #parcours img
+    /* .parcours_imgage */
+    {
+        /* display: ; */
+        float: left;
+        overflow: hidden;
+
+    } 
+
+    #parcours p{
+        /* clear: left; */
+        line-height: 1.9em;
+    }
+
+
+    .banner-picture_small--right{
+        
+        display: flex;
+        flex-direction: row;
+        
+        /* float: right; */
+        /* float: right;
+        position: relative; */
+        /* left: 300px;*/
+            /* bottom: 300px;  */
+        
+    }
+
+    /* Texte Parcours */
+
+    .banner-text{
+        /* color: white; */
+        font-style: italic;
+        font-size: 1.3em;
+        text-indent: 2em;
+        margin: 10px;
+        font-weight: bold;
+    }
+
+    /* texte Formation */
+
+    #formation li{
+        text-align: center;
+        line-height: 1.9em;
+    }
+    #formation span{
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    /* liste des blocs */
+
+    .subtitle, .subtitle-list,h2{
+        text-align: center;
+        list-style-type: none;
+        /* color: white; */
+        margin-left: auto;
+        margin-right: auto;
+
+        
+
+    }
+
+    .list-items { 
+        text-align: left;
+        line-height: 1.4em;
+        font-size: 1.3em;
+        font-style: italic;
+        list-style: none;
+    }
+
+   
+    .banner-picture_small--right{
+    max-width: 80vw;
+    }
+    
+    .subtitle-list_competence{ 
+        /* justify-content: center; */
+        text-align: center;
+        /* background-color: red; */
+    }
+    
+    /********BLOC COMPETENCES ***********/
+
+    #competence h2{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .competence_list{ /*div ancetre du bloc*/
+        /* background-color: blueviolet; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .competence_tech , .competence_soft {
+        
+        /* background-color: red; */
+        align-self: center;
+        font-size: 1.5em;
+        
+    }
+    /*TECH*/
+    .competence_tech{
+        width: 100%;
+    }
+    
+    .subtitle_list_tech{
+        display: flex;
+        /* background-color: aqua; */
+        justify-content: space-evenly;
+    }
+
+    .subtitle_list_tech img{  /*icones languages*/
+        width: 90px;
+        margin-left:15px ;
+        margin-right: 15px;
+
+    }
+
+/*SOFT*/
+.competence_soft{ /*div parent direct*/
+display: flex;
+}
+.competence_left{
+    /* background-color: green; */
+    width: 50%;
+    list-style: none;
+
+}
+.competence_right{
+    /* background-color: yellow; */
+    width: 50%;
+    list-style: none;
+    text-align-last: right;
+    padding-right: 5vw ;
+
+}
+/***************************************/
+
+
+.copyright{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+    /*Card portefolio*/
+
+    .card-body{
+        background-color: white;
+    }
+
+    /*Contact*/
+
+    #contact img{
+        max-height: 50px;
+        margin: 10px;
+
+    }
+
+                                    /* GESTION RESPONSIVE */
+
+
+    @media screen and (max-width :600px) {
+
+        
+        /* .competence_left {
+            align-self: center;
+        }
+
+        .banner-subtitle{
+            font-size: 1.5em;
+        } */
+
+        .competence_soft{ 
+            flex-direction: column;
+            /* background-color: red; */
+            align-items: center;
+        }
+        .competence_right{
+            text-align-last: left;
+        }
+
+        .competence_tech , .competence_soft {
+        
+            /* background-color: red; */
+            /* align-self: center; */
+            font-size: 1.2em;
+            
+        }
+        .competence_soft li{
+            list-style-type: disc;
+        }
+        .competence_tech img{
+
+            width: 50px;
+        }
+    }
