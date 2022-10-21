@@ -8,7 +8,7 @@
 
 <section>
 
-Actuellement en pleine reconversion, je fais mes premiers pas dans le développement informatique depuis peu. Avide de connaitre et d'expérimenter de nouveaux challenges j'aggrémenterai mon profil au fur et à mesure de mes expériences. N'hésitez pas à prendre contact avec moi.
+Actuellement en pleine reconversion, je fais mes premiers pas dans le développement informatique depuis quelques mois déjà. Avide de connaitre et d'expérimenter de nouveaux challenges j'aggrémenterai mon profil au fur et à mesure de mes expériences. N'hésitez pas à prendre contact avec moi.
 
 ###### *Currently in full professionnal retraining, I am taking my first steps in computer development recently. Eager to learn and experience new challenges, I will add to my profile as I gain experience. Do not hesitate to contact me.*
 
@@ -28,7 +28,8 @@ Actuellement en pleine reconversion, je fais mes premiers pas dans le développe
 ### ***Languages et techniques avec de bonnes bases***
 ##### (languagues with great knowlegdes)
 
-<img align="left" width="65px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" /><img align="left" width="65px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" /><img align="left" width="90px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" /><img align="left" width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" /><img align="left" width="80px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" /> <img align="left" width="70px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" />  
+<img align="left" width="65px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" /><img align="left" width="65px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" /><img align="left" width="90px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" /><img align="left" width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" /><img align="left" width="80px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" /> <img align="left" width="70px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" />  <img align="left" width="70px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/symfony/symfony-original-wordmark.svg" />
+
 
 </br>
 </br>
@@ -39,7 +40,7 @@ Actuellement en pleine reconversion, je fais mes premiers pas dans le développe
 ### ***Languages et techniques en cours d'apprentissages***
 ##### (languagues in learning)
 
-<img align="left" width="70px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/symfony/symfony-original-wordmark.svg" />
+<img align="left" width="70px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
 
 <br/>
 <br/>
