@@ -1,10 +1,16 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,300&display=swap');
+
+    
+    
     /* applications générales */
     *{
         box-sizing: border-box;
         /* color: black; */
+        font-family: 'Montserrat Alternates', sans-serif ;
         
     }
+
 
     a:focus{
         color: blueviolet;
@@ -20,30 +26,39 @@
 
     }
 
+    h2{
+        font-size: bold;
+        text-decoration: underline;
+    }
+
     section, footer{
         background-color: white;
         margin-top: 50px;
         /* padding: 20px; */
-        opacity: 85%;
+        opacity: 90%;
         min-height: 150px;
     }
 
     .wrapper{
-        width: 100vw;
+        width: 80vw;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 10vh;    
+        /* margin-bottom: 10vh;     */
     }
 
-    nav li{
+    .nav-link{
         /* background-color: red; */
         font-size: 2em;
         padding-left: 1.5em;
         padding-right: 1.5em;
-
     }
 
-                                /* menu déroulant */
+    /* .container-fluid{
+        padding: none;
+    } */
+
+                                /* menu déroulant */   
+
     label, #toggle{
         display: none;
     }
@@ -51,6 +66,7 @@
 
     .header-navigation{
         margin-top: 30px;
+
     }
 
 
@@ -63,8 +79,7 @@
 
 
                             /* bannière principale */
-    /* header{
-    } */
+      
 
     .content{
         width: 100%;
@@ -89,6 +104,8 @@
         border-radius: 20px;
     }
 
+    
+
                             /* Bannière de section */
 
     .content{
@@ -103,10 +120,10 @@
     .content-banner{
         background-color: black;
         width: 100%;
-        display: block;
-        display: flex;
         position:relative;
         height: 50px;
+        /* display: flex; */
+        /* display: block; */
     }
     
     .banner-picture{
@@ -127,13 +144,17 @@
         font-style: italic;
         font-size: 2em;
         text-align: center;
-        margin: auto;
         
         padding-left: 50px;
         padding-right: 50px;
+        /* padding-bottom: 20px; */
         border-radius: 20px;
 
     } 
+
+    section{
+        padding-bottom: 10px;
+    }
 
 
     /* petit photo dans le texte */
@@ -250,7 +271,12 @@
         text-align: center;
         /* background-color: red; */
     }
-    
+    /* ******EXPERIENCES*************** */
+
+    .second-list{
+        list-style:inside;
+    }
+
     /********BLOC COMPETENCES ***********/
 
     #competence h2{
@@ -280,6 +306,7 @@
         display: flex;
         /* background-color: aqua; */
         justify-content: space-evenly;
+        flex-wrap: wrap;
     }
 
     .subtitle_list_tech img{  /*icones languages*/
@@ -322,6 +349,24 @@ display: flex;
     .card-body{
         background-color: white;
     }
+    .card-title {
+        text-align: center;
+    }
+
+    .card-img-top{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .card img{
+        max-width: 100%;
+        max-height: 30%;
+    }
+
+    .card{
+        padding-bottom: 10px ;
+        padding-top: 10px ;
+    }
 
     /*Contact*/
 
@@ -345,11 +390,22 @@ display: flex;
             font-size: 1.5em;
         } */
 
+        /* .wrapper{
+            width: 100%;
+            margin-left: 10;
+            margin-right: 10;
+             margin-bottom: 10vh;     
+        } */
+        /* .subtitle_list_tech{
+           
+        } */
+
         .competence_soft{ 
             flex-direction: column;
             /* background-color: red; */
             align-items: center;
-        }
+            
+        } 
         .competence_right{
             text-align-last: left;
         }
@@ -359,6 +415,7 @@ display: flex;
             /* background-color: red; */
             /* align-self: center; */
             font-size: 1.2em;
+
             
         }
         .competence_soft li{
