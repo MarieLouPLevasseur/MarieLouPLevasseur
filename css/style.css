@@ -240,6 +240,18 @@
         text-decoration: underline;
     }
 
+     /* texte Certifications */
+
+     #certification li{
+        text-align: center;
+        line-height: 1.9em;
+    }
+    #certification span{
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+
     /* liste des blocs */
 
     .subtitle, .subtitle-list,h2{
