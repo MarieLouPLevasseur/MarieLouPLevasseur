@@ -77,7 +77,9 @@
         
     }
 
-
+    .next{
+        margin: 10px;
+    }
                             /* bannière principale */
       
 
@@ -295,7 +297,7 @@
         margin-top: 15px;
         margin-bottom: 15px;
     }
-    .competence_list{ /*div ancetre du bloc*/
+    .competence_list { /*div ancetre du bloc*/
         /* background-color: blueviolet; */
         display: flex;
         flex-direction: column;
@@ -357,17 +359,39 @@ display: flex;
 }
 
     /*Card portefolio*/
-
+.card-wrapper{
+    margin: auto;
+    
+}
+    .card{
+        margin: auto;
+    }
     .card-body{
         background-color: white;
+        max-width: 100%;
+        margin: auto;
+        
+       
     }
     .card-title {
         text-align: center;
+        font-weight: 800;
+        
+    }
+
+    .card-subtitle{
+        text-align: center;
+        font-weight: 600;
+        margin: 10px;
     }
 
     .card-img-top{
         max-width: 100%;
         height: auto;
+    }
+
+    .card-text{
+        text-align: justify;
     }
 
     .card img{
@@ -392,44 +416,91 @@ display: flex;
 
     }
 
+    figure {
+        /* width:300px; */
+        max-width: 100%;
+        position:relative;
+    }
+    figcaption {
+        opacity:0;
+        background-color: rgb(173, 195, 207);
+        text-align:center;
+        position:absolute;
+        bottom:0;
+        left:0;
+        right:0;
+    }
+         
+    figure:hover figcaption {
+        transition:all 1s;
+        opacity:1;
+    }
+
+    .data_infos_list{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .data_infos_back, .data_infos_front{
+        align-self: baseline;
+        font-size: 1.1em;
+        /* text-align: justify; */
+        width: 50%;
+        text-align: center;
+
+    }
+    .data_infos_list li {
+        /* text-align: justify; */
+    }
+    .main-card{
+        /* width: 50%; */
+    }
+    .main-card img{
+        width: 18rem;
+    }
+    
+    .data_infos{
+        text-align: justify;
+        text-align: center;
+    }
+
+    
+
                                     /* GESTION RESPONSIVE */
 
 
+    @media screen and (max-width :1200px) {
+        .data_infos_list{ 
+            flex-direction: column;
+            align-items: center;
+            
+        } 
+        .data_infos_back, .data_infos_front{ 
+            text-align: justify;
+            text-align: center;
+            width: 100%;
+
+
+            
+        } 
+    }
     @media screen and (max-width :600px) {
 
-        
-        /* .competence_left {
-            align-self: center;
-        }
 
-        .banner-subtitle{
-            font-size: 1.5em;
-        } */
-
-        /* .wrapper{
-            width: 100%;
-            margin-left: 10;
-            margin-right: 10;
-             margin-bottom: 10vh;     
-        } */
-        /* .subtitle_list_tech{
-           
-        } */
-
-        .competence_soft{ 
+        .competence_soft { 
             flex-direction: column;
             /* background-color: red; */
             align-items: center;
             
         } 
-        .competence_right{
+        .competence_right {
             text-align-last: left;
         }
 
-        .competence_tech , .competence_soft {
+        .competence_tech , .competence_soft , .data_infos_list {
         
             /* background-color: red; */
-            /* align-self: center; */
             font-size: 1.2em;
 
             
@@ -441,4 +512,9 @@ display: flex;
 
             width: 50px;
         }
+
+        figure{
+        font-size: 0.7em;
+        }
+
     }
