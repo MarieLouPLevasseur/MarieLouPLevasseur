@@ -8,18 +8,16 @@
 
 <section>
 
-Actuellement en pleine reconversion, je fais mes premiers pas dans le développement informatique depuis quelques mois déjà. Avide de connaitre et d'expérimenter de nouveaux challenges j'aggrémenterai mon profil au fur et à mesure de mes expériences. N'hésitez pas à prendre contact avec moi.
+Après une formation intensive en développement web, j'entame une reconversion vers le digital. Je consolide progressivement mes acquis dans le développement informatique depuis quelques mois déjà. Avide de connaitre et d'expérimenter de nouveaux challenges, j'aggrémenterai mon profil au fur et à mesure de mes expériences. N'hésitez pas à prendre contact avec moi.
 
-###### *Currently in full professionnal retraining, I am taking my first steps in computer development recently. Eager to learn and experience new challenges, I will add to my profile as I gain experience. Do not hesitate to contact me.*
+###### *After an intensive training in web development, I am starting a conversion to digital. I am gradually consolidating my skills in computer development for a few months already. Eager to learn and experience new challenges, I will add to my profile as I gain experience. Do not hesitate to contact me.*
 
 
 </section>
 
 </br>
 
-    "Je n’ai pas échouée. J’ai juste trouvé 10 000 façons qui ne fonctionneront pas."
-    "I did not fail. I found 10000 ways that won't work."
-        (Thomas Edison)
+   
 
 
 
@@ -30,27 +28,27 @@ Actuellement en pleine reconversion, je fais mes premiers pas dans le développe
 
 <img align="left" width="65px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" /><img align="left" width="65px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" /><img align="left" width="90px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" /><img align="left" width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" /><img align="left" width="80px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" /> <img align="left" width="70px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" />  <img align="left" width="70px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/symfony/symfony-original-wordmark.svg" />
 
-
-</br>
-</br>
-</br>
-
-
+</br></br></br>
 
 ### ***Languages et techniques en cours d'apprentissages***
 ##### (languagues in learning)
 
-<img align="left" width="70px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
+<img align="left" width="70px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" /><img align="left" width="130px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cakephp/cakephp-original-wordmark.svg" />
 
-<br/>
-<br/>
-<br/>
+<br/><br/><br/><br/><br/>
+
 
 ### ***Contacts***
-
-<a href="www.linkedin.com/in/MarieLou-Prince-Levasseur-web-developpeur"><img width="80px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original-wordmark.svg"/> 
 <br/>
-<a href="https://twitter.com/sunnymary007"><img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg"/>
+<a href="www.linkedin.com/in/MarieLou-Prince-Levasseur-web-developpeur"><img width="100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original-wordmark.svg"/> 
+
+    "« Je ne perds jamais. Soit je gagne, soit j'apprends. », Nelson Mandela."
+    " I never lose. Either I win or I learn."
+        (Nelson Mandela)
+
+<p align="center">
+<img  width="270px" src="https://cdn.beweb.fr//medias/up1/2020/05/5eaf78e491b31.jpg" />
+</p>
 
 
 <!--
