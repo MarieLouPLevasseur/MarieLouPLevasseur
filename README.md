@@ -48,13 +48,13 @@
 
 ## Projets
 
-| Projet | Techno | Liens |
-|--------|-------------------|-------|
-| **Livres O'Trésor** | Full stack en équipe · Symfony + React · API REST · JWT · Redux | [PDF](./doc/Sommaire%20Livres%20O%20Tresor.pdf) · [Démo](https://www.youtube.com/watch?v=qHfnq1mhgsk&t=1139) |
-| **Cinéma** | Symfony · rôles utilisateur · favoris · tests unitaires | [PDF](./doc/Sommaire%20cinema.pdf) |
-| **Météo** | Symfony · préférences · logique métier | [PDF](./doc/Sommaire%20Meteo.pdf) |
-| **Pokédex** | PHP · MySQL · routing custom (AltoRouter) | [PDF](./doc/Sommaire%20Pokedex.pdf) |
-| **Material — parc matériel chimie** | Symfony · React · inventaire lycée (accès privé) | [PDF](./doc/Sommaire%20Material%20jp.pdf) |
+| Projet | Techno | 
+|--------|-------------------
+| **Livres O'Trésor** | Full stack en équipe · Symfony + React · API REST · JWT · Redux 
+| **Cinéma** | Symfony · rôles utilisateur · favoris · tests unitaires 
+| **Météo** | Symfony · préférences · logique métier 
+| **Pokédex** | PHP · MySQL · routing custom (AltoRouter) 
+| **Material — parc matériel chimie** | Symfony · React · inventaire lycée 
 
 
 ---
