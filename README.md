@@ -1,67 +1,83 @@
+<div align="center">
 
+# Marie Lou Prince-Levasseur
 
+### Développeuse web · PHP · JavaScript
 
-<!-- ![GHstats](https://github-readme-stats.vercel.app/api?username=MarieLouPLevasseur&show_icons=true) -->
+[![Portfolio](https://img.shields.io/badge/Portfolio-voir_le_site-e94560?style=for-the-badge)](https://github.com/MarieLouPLevasseur/MarieLouPLevasseur)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marielou-prince-levasseur-web-developpeur/)
+[![Email](https://img.shields.io/badge/Email-marieLou.plevasseur%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:marielou.plevasseur@gmail.com)
 
+</div>
 
-### Hi there 👋 Bonjour à tous
+---
 
-<section>
+## Ce que je fais
 
-Après une formation intensive en développement web, j'entame une reconversion vers le digital. Je consolide progressivement mes acquis dans le développement informatique depuis quelques mois déjà. Avide de connaitre et d'expérimenter de nouveaux challenges, j'aggrémenterai mon profil au fur et à mesure de mes expériences. N'hésitez pas à prendre contact avec moi.
+- **Back-end** — API REST, authentification (JWT), CRUD, migrations, tests unitaires
+- **Front-end** — interfaces réactives, consommation d'API, routing, state management
+- **Conception** — wireframes, MCD, user stories, cahier des charges
+- **Qualité web** — certification Opquast Maîtrise (880/1000)
 
-###### *After an intensive training in web development, I am starting a conversion to digital. I am gradually consolidating my skills in computer development for a few months already. Eager to learn and experience new challenges, I will add to my profile as I gain experience. Do not hesitate to contact me.*
+---
 
+## Technologies
 
-</section>
+**Back-end**
 
-</br>
-
-   
-
-
-
-</br>
-
-### ***Languages et techniques avec de bonnes bases***
-##### (languagues with great knowlegdes)
-
-<img align="left" width="65px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" /><img align="left" width="65px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" /><img align="left" width="90px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" /><img align="left" width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" /><img align="left" width="80px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" /> <img align="left" width="70px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" />  <img align="left" width="70px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/symfony/symfony-original-wordmark.svg" />
-
-</br></br></br>
-
-### ***Languages et techniques en cours d'apprentissages***
-##### (languagues in learning)
-
-<img align="left" width="70px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" /><img align="left" width="130px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cakephp/cakephp-original-wordmark.svg" />
-
-<br/><br/><br/><br/><br/>
-
-
-### ***Contacts***
-<br/>
-<a href="www.linkedin.com/in/MarieLou-Prince-Levasseur-web-developpeur"><img width="100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original-wordmark.svg"/> 
-
-    "« Je ne perds jamais. Soit je gagne, soit j'apprends. », Nelson Mandela."
-    " I never lose. Either I win or I learn."
-        (Nelson Mandela)
-
-<p align="center">
-<img  width="270px" src="https://cdn.beweb.fr//medias/up1/2020/05/5eaf78e491b31.jpg" />
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" width="44" height="44" alt="PHP" title="PHP"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" width="44" height="44" alt="Laravel" title="Laravel"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/symfony/symfony-original-wordmark.svg" width="44" height="44" alt="Symfony" title="Symfony"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cakephp/cakephp-original-wordmark.svg" width="44" height="44" alt="CakePHP" title="CakePHP"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" width="44" height="44" alt="MySQL" title="MySQL"/>
 </p>
 
+**Front-end**
 
-<!--
-**MarieLouPLevasseur/MarieLouPLevasseur** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" width="44" height="44" alt="Vue.js 3" title="Vue.js 3"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width="44" height="44" alt="React" title="React"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="44" height="44" alt="JavaScript" title="JavaScript"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" width="44" height="44" alt="HTML5" title="HTML5"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" width="44" height="44" alt="CSS3" title="CSS3"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" width="44" height="44" alt="Bootstrap" title="Bootstrap"/>
+</p>
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Projets
+
+| Projet | Techno | Liens |
+|--------|-------------------|-------|
+| **Livres O'Trésor** | Full stack en équipe · Symfony + React · API REST · JWT · Redux | [PDF](./doc/Sommaire%20Livres%20O%20Tresor.pdf) · [Démo](https://www.youtube.com/watch?v=qHfnq1mhgsk&t=1139) |
+| **Cinéma** | Symfony · rôles utilisateur · favoris · tests unitaires | [PDF](./doc/Sommaire%20cinema.pdf) |
+| **Météo** | Symfony · préférences · logique métier | [PDF](./doc/Sommaire%20Meteo.pdf) |
+| **Pokédex** | PHP · MySQL · routing custom (AltoRouter) | [PDF](./doc/Sommaire%20Pokedex.pdf) |
+| **Material — parc matériel chimie** | Symfony · React · inventaire lycée (accès privé) | [PDF](./doc/Sommaire%20Material%20jp.pdf) |
+
+
+---
+
+## Certifications
+
+- [Opquast](https://www.opquast.com/) — Maîtrise de la qualité en projet web (880/1000)
+- [RNCP](https://www.francecompetences.fr/recherche/rncp/31114/) — Développeur Web et Web Mobile (niveau 5)
+
+---
+
+## Me contacter
+
+| | |
+|---|---|
+| 📧 | [marielou.plevasseur@gmail.com](mailto:marielou.plevasseur@gmail.com) |
+| 💼 | [LinkedIn](https://www.linkedin.com/in/marielou-prince-levasseur-web-developpeur/) |
+| 📄 | [CV (PDF)](./doc/CV%20Marie%20Lou%20Prince-Levasseur.pdf) |
+
+---
+
+<div align="center">
+
+*« Je ne perds jamais. Soit je gagne, soit j'apprends. »* — Nelson Mandela
+
+</div>

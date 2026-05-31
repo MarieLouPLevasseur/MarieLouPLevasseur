@@ -3,470 +3,409 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Marie Lou Prince-Levasseur — Développeuse web (PHP (Symfony,Laravel, cakePHP), React)">
+    <title>Marie Lou Prince-Levasseur | Développeuse Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js">
-
-    <title>Marie Lou Prince-Levasseur developpeur web</title>
 </head>
 
-
 <body>
-    <div class="wrapper">
 
+    <!-- Navigation -->
+    <header class="site-header" id="top">
+        <nav class="nav container">
+            <a href="#top" class="nav-logo">ML<span class="nav-logo-accent">.</span></a>
+            <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#parcours">Parcours</a></li>
+                <li><a href="#contact" class="nav-cta">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <header class="header ">
+    <main>
 
-            <!-- --------- Menu-------- -->
-            <nav class="header-navigation navbar navbar-expand-lg w-100 bg-light">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-around bg-light " id="navbarNav">
-                    <ul class="navbar-nav nav-fill">
-                        <a class="nav-item nav-link active" aria-current="page" href="#parcours">Parcours</a>
-                        <a class="nav-item nav-link" href="#experience">Expériences</a>
-                        <a class="nav-item nav-link" href="#competence">Compétences</a>
-                        <a class="nav-item nav-link" href="#portefolio">Portefolio</a>
-                        <a class="nav-item nav-link" href="#formation">Formations</a>
-                        <a class="nav-item nav-link" href="#certification">Certifications</a>
-                        <a class="nav-item nav-link" href="#contact">Contacts</a>
-
-                    </ul>
+        <!-- Hero -->
+        <section class="hero container">
+            <div class="hero-content">
+                <p class="hero-greeting">Bonjour, je suis</p>
+                <h1 class="hero-title">Marie Lou <span class="hero-title-accent">Prince-Levasseur</span></h1>
+                <p class="hero-subtitle">Développeuse web — Laravel, Vue.js 3 &amp; PHP</p>
+                <p class="hero-description">
+                    De la biologie au code : 13 ans d’expérience en environnement exigeant, aujourd’hui dédiée au développement d’applications web concrètes.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+                    <a href="./doc/CV Marie Lou Prince-Levasseur.pdf" target="_blank" class="btn btn-outline">Télécharger mon CV</a>
                 </div>
-
-            </nav>
-
-        </header>
-
-
-        <main class="content container-fluid ">
-            <div class="row justify-content-around">
-                <div class="header-banner--content_img col-4">
-                    <img class="header-banner--picture_ML img-fluid " src="./images/photo_grand.jpg">
-                </div>
-                <div class="header-banner_text col-8 m-15">
-                    <p>Marie Lou Prince-Levasseur <br> Développement web et web mobile </p>
+                <div class="hero-social">
+                    <a href="https://github.com/MarieLouPLevasseur" target="_blank" rel="noopener" aria-label="GitHub">
+                        <img src="./images/github.png" alt="">
+                    </a>
+                    <a href="https://www.linkedin.com/in/marielou-prince-levasseur-web-developpeur/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <img src="./images/linkedin.png" alt="">
+                    </a>
+                    <a href="mailto:marielou.plevasseur@gmail.com" aria-label="Email">
+                        <img src="./images/mail.png" alt="">
+                    </a>
                 </div>
             </div>
+            <div class="hero-visual">
+                <div class="hero-photo-frame">
+                    <img src="./images/photo_grand.jpg" alt="Marie Lou Prince-Levasseur">
+                </div>
+                <div class="hero-badge">
+                    <span class="hero-badge-dot"></span>
+                    Développeuse web 
+                </div>
+            </div>
+        </section>
 
-
-            <section id="parcours">
-
-                <div class="content-banner">
-                    <h1 class="banner-subtitle"> Mon Parcours</h1>
+        <!-- Projets -->
+        <section id="projets" class="section section-dark">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Portfolio</span>
+                    <h2 class="section-title">Mes projets</h2>
+                    <p class="section-intro">Des applications concrètes, de la conception à la mise en production.</p>
                 </div>
 
-                <p class="banner-text">
-                    <img class="banner-picture_small" src="./images/biologie experience.jpg" alt="">
-                    Curieuse et avide de tout apprendre, mes champs d'expertise sont nombreux: langues, sciences
-                    (biologie), informatique,musique...J'aime découvrir toujours plus de choses. Il n'y a pas assez
-                    d'une vie pour tout apprendre!
+                <div class="projects-featured">
 
-                    Après 13 ans de carrière comme technicienne de laboratoire dans un centre de transfusion, je me
-                    lance ce nouveau défi de la programmation informatique pour trouver toujours plus de solutions aux
-                    défis d'aujourd'hui. J'affectionne particulièrement les domaines
-                    médicaux, sociaux, environnementaux et littéraires mais ne suis fermée à aucun domaine.
-
-                </p>
-                <p class="banner-text">
-                    Mes compétences transverses acquises au fil des années me permettront d'être un
-                    plus à la compréhension des projets clients et leurs besoins et de les faire évoluer au mieux.
-                </p>
-
-            </section>
-
-            <section id="experience">
-                <div class="content-banner ">
-
-                    <h1 class="banner-subtitle">Expériences</h1>
-
-                </div>
-
-                <div class="container-fluid">
-                    <!-- <ul class="subtitle-list subtitle-list_competence"> -->
-                    <!-- <li class="list-items">Projet d'apothéose 2022</li> -->
-                    <h2>Projet d'apothéose 2022</h2>
-                    <ul class="subtitle-list ">
-                        <li class="list-items second-list">Conception projet: Wireframe, cahier des charges, MCD, User
-                            Stories, dictionnaire de données ...</li>
-                        <li class="list-items second-list">Codage back en PHP (Symfony), BDD avec MySql (MariaDB),
-                            Doctrine, API Rest</li>
-                        <li class="list-items second-list">Codage front en JS (ReactJS) en autonomie </li>
-
-                    </ul>
-                    <!-- <li class="list-items">Technicienne de laboratoire polyvalente de 2009 à 2022</li> -->
-                    <h2>Technicienne de laboratoire de 2009 à 2022</h2>
-                    <ul class="subtitle-list ">
-                        <li class="list-items second-list">Gestion des urgences</li>
-                        <li class="list-items second-list">Aide à la rédaction de procédures et modes opératoires</li>
-                        <li class="list-items second-list">Tests de bases lors de mise à jour</li>
-                        <li class="list-items second-list">Relances clients (identitovigilance, hémovigilance)</li>
-
-                    </ul>
-
-                    <!-- </ul> -->
-                </div>
-
-            </section>
-
-            <section id="competence">
-                <div class="content-banner">
-
-                    <h1 class="banner-subtitle">Compétences</h1>
-
-                </div>
-                <div class="competence_list ">
-                    <h2>
-                        Compétences techniques
-                    </h2>
-                    <div class="competence_tech ">
-
-
-                        <ul class="subtitle-list subtitle_list_tech ">
-                            <li>HTML
-                                <img
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" />
-                            </li>
-                            <li>CSS
-                                <img
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" />
-                            </li>
-                            <li>PHP
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" />
-                            </li>
-                            <li>Javascript
-                                <img
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
-                            </li>
-
-                            <li>Symfony
-                                <img
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/symfony/symfony-original-wordmark.svg" />
-
-                            </li>
-                            <li>Réact
-                                <img
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
-
-                            </li>
-
-
-                        </ul>
-
-
-
-                    </div>
-                </div>
-                <img class="banner-picture_small banner-picture_small--right" src="./images/competence.jpg" alt="">
-                <h2>
-                    Soft Skills
-                </h2>
-                <div class="competence_soft">
-                    <div class="competence_left">
-                        <ul class="subtitle-list">
-                            <li class="list-items">Conscience professionnelle</li>
-                            <li class="list-items">Rigueur</li>
-                            <li class="list-items">Adaptabilité</li>
-                            <li class="list-items">Grande capacité d'organisation</li>
-                            <li class="list-items">Empathie et écoute</li>
-                        </ul>
-                    </div>
-                    <div class="competence_right">
-                        <ul>
-                            <li class="list-items">Polyvalente</li>
-                            <li class="list-items">Bonne gestion du stress</li>
-                            <li class="list-items">Curieuse</li>
-                            <li class="list-items">Travail en équipe</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-
-            <section id="formation">
-                <div class="content-banner">
-
-                    <h1 class="banner-subtitle">Formations</h1>
-                </div>
-                <ul class="subtitle-list">
-                    <div class="wrapper-list">
-
-                        <li class="list-items"><span>2022 (Mars-Septembre</span>)</br><a
-                                href="https://oclock.io/formations/developpeur-web" target="_blank"> Formation Oclock
-                                Développeur Web et Web Mobile </a></br>Développeuse Full Stack: Spécialisation Symfony
-                            </br></li>
-                        <li class="list-items"><span>2006-2008</span></br> <a
-                                href="https://www.lyc-curie.ac-aix-marseille.fr/spip/spip.php?article998"
-                                target="_blank">BTS
-                                Analyses
-                                Biologiques: Lycée Marie-Curie (France)</a></br>Technicienne de laboratoire</br></li>
-                        <li class="list-items"><span>2003-2005</span></br><a
-                                href="https://ling-trad.umontreal.ca/programmes-cours/programmes-traduction/"
-                                target="_blank">
-                                Licence en
-                                Traduction: Université de Montréal (Qc, Canada)</a></br> (licence
-                            interrompue suite déménagement à l'étranger. 3 semestres sur 6 de validés)</li>
-                        <li class="list-items"><span>2001-2003</span></br> DEC (Diplôme d'Etudes Collégiales) en
-                            arts et lettre options
-                            langues:
-                            Cégep
-                            de Saint-Jérôme
-                            (QC,Canada)</li>
-                    </div>
-                </ul>
-
-            </section>
-
-            <section id="certification">
-                <div class="content-banner">
-
-                    <h1 class="banner-subtitle">Certifications</h1>
-                </div>
-                <ul class="subtitle-list">
-                    <div class="wrapper-list">
-                        <li class="list-items"><span>2022 (15 Novembre 2022)</span> </br><a
-                                href="https://www.opquast.com/" target="_blank"> Certification Opquast: Maîtrise de la
-                                qualité en projet Web</a>
-                            </br>Niveau Maîtrise (880/1000) </br> </li>
-                        <li class="list-items"><span>2022 (19 Octobre)</span></br>(en attente des résultats) </br><a
-                                href="https://www.francecompetences.fr/recherche/rncp/31114/" target="_blank"> RNCP:
-                                Professionnel
-                                de
-                                Développeur Web et Web Mobile, niveau 5 (bac+2)</a> </li>
-
-                        <li class="list-items"><span>2012</span></br> <a
-                                href="https://www.paca.ars.sante.fr/certificat-de-capacite-effectuer-des-prelevements-sanguins-cceps"
-                                target="_blank">Certificat
-                                de prélèvement sanguin</a></li>
-                        <li class="list-items"><span>2008-2010</span></br><a
-                                href="http://fr.ap-hm.fr/sites/default/files/files/cesu13/Formulaire%20AFGSU%202%202021(1).pdf"
-                                target="_blank">
-                                Gestes et soins d'urgences niveau 1 et 2 (AFGSU 1 et 2)</a></li>
-
-                    </div>
-                </ul>
-
-            </section>
-            <section id="portefolio">
-                <div class="content-banner">
-
-                    <h1 class="banner-subtitle">Portefolio</h1>
-                </div>
-                <!-- <img class="portefolio_img" src="./images/en-cours-de-construction.jpg" alt="en construction"> -->
-                <div class="row justify-content-center card-wrapper">
-                    <!-- ------ card--------- -->
-                    <div class="card  col-lg-5 m-2 align-items-center main-card" >
-                        <img src="./images/logo-Livres-O-Tresor.png" class="card-img-top" alt="en construction">
-                        <div class="card-body">
-                            <h5 class="card-title">Livres O'Trésor </h5>
-                            <p class="card-subtitle">Site jeunesse</p>
-                            <p class="card-subtitle">Groupe de 5 développeurs</p>
-
-                            <p class="card-text"> Site complet de gestion de bibliothèque jeunesse ayant pour but
-                                d'organiser virtuellement la bibliothèque et les progrès de lecture d'un enfant avec
-                                système de motivation à la lecture, archivage des livres, liste de souhaits, visibilité
-                                des progrès en lecture...
+                    <!-- Projet phare — Livres O'Trésor -->
+                    <article class="project-featured">
+                        <div class="project-featured-image">
+                            <img src="./images/logo-Livres-O-Tresor.png" alt="Livres O'Trésor">
+                        </div>
+                        <div class="project-featured-content">
+                            <span class="project-tag">Projet d'apothéose · Groupe de 5</span>
+                            <h3 class="project-title">Livres O'Trésor</h3>
+                            <p class="project-desc">
+                                Plateforme de gestion de bibliothèque jeunesse : suivi de lecture, système de motivation,
+                                archivage, listes de souhaits et tableaux de bord pour parents et enfants.
                             </p>
-                            <div>
-
-                                <div class="data_infos_list">
-
-                                    <div class="data_infos_back">
-                                        <p class="card-subtitle">Back</p>
-                                        <li class="list-items">
-                                            <ul>Symfony </ul>
-                                            <ul>MySQL</ul>
-                                            <ul>Login/authentification</ul>
-                                            <ul>Api Rest /CRUD</ul>
-                                            <ul>Fixtures</ul>
-                                            <ul>Migrations</ul>
-                                            <ul>Mailing</ul>
-                                            <ul>Subscriber</ul>
-                                            <ul>Api/JWT sécurité</ul>
-
-                                        </li>
-
-                                    </div>
-                                    <div class="data_infos_front">
-
-                                        <p class="card-subtitle"> Front</p>
-                                        <li class="list-items">
-                                            <ul>React Js </ul>
-                                            <ul>Axios: gestion API externe et Api Back symfony</ul>
-                                            <ul>MUI (méterial UI)</ul>
-                                            <ul>ReactRouter Dom</ul>
-                                            <ul>React-Redux </ul>
-                                        </li>
-                                    </div>
-                                </div>
+                            <div class="project-tech">
+                                <span>Symfony</span><span>React</span><span>MySQL</span><span>API REST</span><span>JWT</span><span>Redux</span><span>MUI</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="./doc/Sommaire Livres O Tresor.pdf" target="_blank" class="btn btn-sm btn-primary">Documentation PDF</a>
+                                <a href="https://www.youtube.com/watch?v=qHfnq1mhgsk&t=1139" target="_blank" class="btn btn-sm btn-outline-light">Voir la démo (19–35 min)</a>
                             </div>
                         </div>
-                        <iframe class="card-iframe" src="https://www.youtube.com/embed/qHfnq1mhgsk?t=1139"
-                            title="La promotion De Vinci Blue présente ses projets de fin de formation !"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                        <p class="card-text">Démo du site </br> (timeline 19-35min) </p>
-                        <a href="./doc/Sommaire Livres O Tresor.pdf" target="_blank"
-                            class="btn btn-success next">Sommaire
-                            projet en PDF</a>
-                        <a href="#" target="_blank" class="btn btn-primary next">Prochainement en ligne</a>
-                    </div>
+                    </article>
 
-                    <!-- --------------------------- -->
-                    <!-- ------ card--------- -->
-                    <div class="card col-lg-5 m-2 align-items-center main-card" >
-                        <img src="./images/cinema.png" class="card-img-top" alt="pop-corn">
-                        <div class="card-body">
-                            <h5 class="card-title">Cinéma</h5>
-                            <p class="card-subtitle"> Site cinéma</p>
-                            <p class="card-text">Dynamisation de films avec différents genres. Gestions des commentaires
-                                et du back office selon profil utilisateur.
-                                <p class="card-subtitle">Symfony</p>
-                                <li class="list-items data_infos">
-                                    
-                                    <ul>MySQL</ul>
-                                    <ul>Login/authentification</ul>
-                                    <ul>Gestion favori/local storage</ul>
-                                    <ul>Fixtures</ul>
-                                    <ul>Migrations</ul>
-                                    <ul>Formulaires</ul>
-                                    <ul>Voter</ul>
-                                    <ul>Slug</ul>
-                                    <ul>Subscriber</ul>
-                                    <ul>Command</ul>
-                                    <ul>Api/JWT sécurité</ul>
-                                    <ul>Tests unitaires</ul>
-                                </li>
+                    <!-- Projet phare — Material (parc matériel chimie) -->
+                    <article class="project-featured">
+                        <div class="project-featured-image project-featured-image--visual" aria-hidden="true">
+                            <div class="project-visual project-visual--lab">
+                                <svg class="project-visual-icon project-visual-icon--flask" viewBox="0 0 64 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M22 4h20v18l14 36a6 6 0 01-5.5 9H13.5a6 6 0 01-5.5-9L22 22V4z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+                                    <path d="M18 32h28" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+                                    <circle cx="28" cy="52" r="4" fill="currentColor" opacity="0.35"/>
+                                    <circle cx="40" cy="48" r="3" fill="currentColor" opacity="0.25"/>
+                                </svg>
+                                <svg class="project-visual-icon project-visual-icon--inventory" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="8" y="12" width="56" height="48" rx="4" stroke="currentColor" stroke-width="2.5"/>
+                                    <path d="M20 28h32M20 38h24M20 48h28" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+                                    <path d="M48 8v8h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                            <span class="project-visual-label">Inventaire · Chimie</span>
+                        </div>
+                        <div class="project-featured-content">
+                            <span class="project-tag">Projet sur mesure · Établissement scolaire</span>
+                            <h3 class="project-title">Material — Parc matériel chimie</h3>
+                            <p class="project-desc">
+                                Application privée de gestion et de suivi du parc matériel de chimie pour un lycée :
+                                inventaire visuel, état du matériel et accès sécurisé selon les profils utilisateurs.
                             </p>
+                            <div class="project-tech">
+                                <span>Symfony</span><span>React</span><span>MySQL</span><span>Authentification</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="./doc/Sommaire Material jp.pdf" target="_blank" class="btn btn-sm btn-primary">Documentation PDF</a>
+                                <span class="project-badge-private">Accès privé · non déployé publiquement</span>
+                            </div>
                         </div>
-                        <a href="./doc/Sommaire cinema.pdf" target="_blank" class="btn btn-success next">Sommaire projet
-                            en PDF</a>
-
-                    </div>
-                </div>
-                <div class="row justify-content-center card-wrapper">
-
-
-                    <!-- ------ card--------- -->
-                    <div class="card col-4 m-2 align-items-center " style="width: 18rem;">
-                        <img src="./images/meteo.png" class="card-img-top" alt="meteo">
-                        <div class="card-body">
-                            <h5 class="card-title">Metéo</h5>
-                            <p class="card-subtitle"> Application météo</p>
-                                <li class="list-items">
-                                    <ul> PHP/Symfony </ul>
-                                    <ul> Gestion préférence (local storage) </ul>
-                                    <ul> Sélection élément aléatoire à l'affichage </ul>
-
-                                </li>
-                            </p>
-                        </div>
-                        <a href="./doc/Sommaire Meteo.pdf" target="_blank" class="btn btn-success next">Sommaire projet
-                            en PDF</a>
-                    </div>
-                    <!-- --------------------------- -->
-                    <!-- ------ card--------- -->
-                    <div class="card col-4 m-2 align-items-center " style="width: 18rem;">
-                        <img src="./images/pokedex.png" class="card-img-top" alt="pokemon ball">
-                        <div class="card-body">
-                            <h5 class="card-title">Pokedex </h5>
-
-                            <p class="card-subtitle">Reproduction visuelle et dynamisation d'un pokédex
-                                <li class="list-items">
-                                    <ul> PHP </ul>
-                                    <ul> MySQL </ul>
-                                    <ul> HTML et CSS </ul>
-                                    <ul> Composer </ul>
-                                    <ul> AltoRouter </ul>
-                                </li>
-                            </p>
-                        </div>
-                        <a href="./doc/Sommaire Pokedex.pdf" target="_blank" class="btn btn-success next">Sommaire
-                            projet en PDF</a>
-                    </div>
-                    <!-- --------------------------- -->
-
-                    <!-- ------ card--------- -->
-                    <!-- <div class="card col-4 m-2 align-items-center " style="width: 18rem;">
-                        <img src="./images/en-cours-de-construction.jpg" class="card-img-top" alt="en construction">
-                        <div class="card-body">
-                            <h5 class="card-title">Page vitrine: Kinésiologie</h5>
-                            <p class="card-text"> Prochainement un site vitrine sur la kinésiologie.</p>
-                        </div>
-                        <a href="#" target="_blank" class="btn btn-primary">Prochainement</a>
-                    </div> -->
-                    <!-- --------------------------- -->
-
-                    <!-- ------ card--------- -->
-                    <div class="card col-4 m-2 align-items-center " style="width: 18rem;">
-                        <img src="./images/en-cours-de-construction.jpg" class="card-img-top" alt="en construction">
-                        <div class="card-body">
-                            <h5 class="card-title">Site enregistrement matériel</h5>
-                            <p class="card-subtitle"></p>
-                            <p class="card-text"> Prochainement site (privé) ayant pour but d'avoir un visuel
-                                modifiable sur son parc matériel professionnel et leur suivi</p>
-                        </div>
-                        <a href="#" target="_blank" class="btn btn-primary">Prochainement</a>
-                    </div>
-                    <!-- --------------------------- -->
+                    </article>
 
                 </div>
-            </section>
 
-        </main>
+                <!-- Grille projets -->
+                <div class="projects-grid">
 
-
-        <footer class="content">
-            <div id="contact">
-                <div class="content-banner content-fluid">
-
-                    <h1 class="banner-subtitle">Contacts</h1>
-                </div>
-                <!-- <nav class="contact-navigation content-fluid"> -->
-                <div class="content-fluid">
-                    <ul class="subtitle-list">
-                        <div class="row justify-content-between">
-                            <li class="list-items col-12 col-md-6">
-                                <figure class="img">
-                                    <figcaption>marieLou.plevasseur@gmail.com</figcaption>
-                                    <img class="contact-mail" src="./images/mail.png" alt="mail">
-                                    marielou.plevasseur@gmail.com
-                                </figure>
-
-                            </li>
-                            <li class="list-items col-12 col-md-6"><img src="./images/cv_logo.png" alt="mail"><a
-                                    href="./doc/CV Marie Lou Prince-Levasseur.pdf" target="_blank">cv version
-                                    papier</a>
-                            </li>
-
-                            <li class="list-items col-12 col-md-6"><img src="./images/github.png" alt="mail"><a
-                                    href="https://github.com/MarieLouPLevasseur" target="_blank">Github</a></li>
-                            <li class="list-items col-12 col-md-6"><img src="./images/linkedin.png" alt="mail"><a
-                                    href="https://www.linkedin.com/in/marielou-prince-levasseur-web-developpeur/"
-                                    target="_blank">Linkedin</a></li>
+                    <article class="project-card">
+                        <div class="project-card-image">
+                            <img src="./images/cinema.png" alt="Cinéma">
                         </div>
-                    </ul>
+                        <div class="project-card-body">
+                            <h3 class="project-title">Cinéma</h3>
+                            <p class="project-desc">Catalogue de films dynamique avec commentaires, favoris et back-office selon les rôles utilisateur.</p>
+                            <div class="project-tech">
+                                <span>Symfony</span><span>MySQL</span><span>JWT</span><span>Tests unitaires</span>
+                            </div>
+                            <a href="./doc/Sommaire cinema.pdf" target="_blank" class="project-link">Documentation →</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-card-image">
+                            <img src="./images/meteo.png" alt="Météo">
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-title">Météo</h3>
+                            <p class="project-desc">Application météo avec préférences utilisateur et affichage aléatoire d'éléments visuels.</p>
+                            <div class="project-tech">
+                                <span>PHP</span><span>Symfony</span><span>Local Storage</span>
+                            </div>
+                            <a href="./doc/Sommaire Meteo.pdf" target="_blank" class="project-link">Documentation →</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-card-image">
+                            <img src="./images/pokedex.png" alt="Pokédex">
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-title">Pokédex</h3>
+                            <p class="project-desc">Reproduction visuelle et dynamisation d'un pokédex interactif avec routing custom.</p>
+                            <div class="project-tech">
+                                <span>PHP</span><span>MySQL</span><span>AltoRouter</span><span>Composer</span>
+                            </div>
+                            <a href="./doc/Sommaire Pokedex.pdf" target="_blank" class="project-link">Documentation →</a>
+                        </div>
+                    </article>
+
                 </div>
-                <!-- </nav> -->
             </div>
-        </footer>
-        <div class="copyright">
-            <p> &#169; |copyright: MarieLouPLevasseur</p>
+        </section>
+
+        <!-- À propos -->
+        <section id="apropos" class="section">
+            <div class="container about-grid">
+                <div class="about-image">
+                    <img src="./images/biologie experience.jpg" alt="Reconversion vers le développement web">
+                </div>
+                <div class="about-content">
+                    <span class="section-label">À propos</span>
+                    <h2 class="section-title">De la biologie au code</h2>
+                    <p>
+                        Curieuse et avide d'apprendre, j'ai exploré les langues et les sciences 
+                        avant de consacrer 13 ans à la transfusion sanguine en tant que technicienne de laboratoire.
+                    </p>
+                    <p>
+                        Développeuse web en entreprise depuis 2023, je me consacre au développement d'applications
+                        professionnelles tout en poursuivant des projets personnels (médical, social, environnemental
+                        et au-delà).
+                    </p>
+                    <p>
+                        Mes compétences transverses — rigueur, gestion du stress, rédaction de procédures —
+                        me permettent de comprendre les besoins clients et de faire évoluer les projets efficacement.
+                    </p>
+                    <blockquote class="about-quote">
+                        « Je ne perds jamais. Soit je gagne, soit j'apprends. »
+                        <cite>— Nelson Mandela</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <!-- Compétences -->
+        <section id="competences" class="section section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Compétences</span>
+                    <h2 class="section-title">Stack technique &amp; soft skills</h2>
+                </div>
+
+                <div class="skills-groups">
+                    <div class="skills-group">
+                        <h3 class="skills-group-title">En entreprise <span class="skills-group-hint">depuis 2023</span></h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" alt="Laravel">
+                                <span>Laravel</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" alt="Vue.js 3">
+                                <span>Vue.js 3</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cakephp/cakephp-original-wordmark.svg" alt="CakePHP">
+                                <span>CakePHP</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" alt="PHP">
+                                <span>PHP</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" alt="MySQL">
+                                <span>MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-group">
+                        <h3 class="skills-group-title">Formation &amp; projets personnels</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/symfony/symfony-original-wordmark.svg" alt="Symfony">
+                                <span>Symfony</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="React">
+                                <span>React</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" alt="HTML5">
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" alt="CSS3">
+                                <span>CSS3</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" alt="JavaScript">
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" alt="Bootstrap">
+                                <span>Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="soft-skills">
+                    <span class="soft-skill">Rigueur</span>
+                    <span class="soft-skill">Adaptabilité</span>
+                    <span class="soft-skill">Travail en équipe</span>
+                    <span class="soft-skill">Empathie</span>
+                    <span class="soft-skill">Organisation</span>
+                    <span class="soft-skill">Gestion du stress</span>
+                    <span class="soft-skill">Curiosité</span>
+                    <span class="soft-skill">Polyvalence</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Parcours -->
+        <section id="parcours" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Parcours</span>
+                    <h2 class="section-title">Expérience &amp; formations</h2>
+                </div>
+
+                <div class="timeline">
+
+                    <div class="timeline-item timeline-item--highlight">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2023 — Aujourd'hui</span>
+                            <h3>Développeuse web</h3>
+                            <p>En poste — développement et maintenance d'applications web professionnelles (Symfony, Laravel, Vue.js 3, CakePHP, React).</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Fin 2022</span>
+                            <h3>Projets Full Stack — formation</h3>
+                            <p>Spécialisation Symfony · Projets en autonomie (React, API REST, JWT, tests unitaires)</p>
+                            <ul>
+                                <li>Projet d'apothéose : conception complète (wireframes, MCD, user stories, cahier des charges)</li>
+                                <li>Back-end PHP/Symfony, front-end React en autonomie</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Mars — Sept. 2022</span>
+                            <h3><a href="https://oclock.io/formations/developpeur-web" target="_blank" rel="noopener">Formation O'clock — Développeur Web</a></h3>
+                            <p>Développeuse Full Stack, spécialisation Symfony</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2009 — 2022</span>
+                            <h3>Technicienne de laboratoire</h3>
+                            <p>Centre de transfusion sanguine — gestion des urgences, procédures, hémovigilance</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Certifications</span>
+                            <h3>Qualité &amp; reconnaissance</h3>
+                            <ul>
+                                <li><a href="https://www.opquast.com/" target="_blank" rel="noopener">Opquast — Maîtrise de la qualité web</a> (880/1000)</li>
+                                <li><a href="https://www.francecompetences.fr/recherche/rncp/31114/" target="_blank" rel="noopener">RNCP Développeur Web et Web Mobile</a> (niveau 5)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2006 — 2008</span>
+                            <h3><a href="https://www.lyc-curie.ac-aix-marseille.fr/spip/spip.php?article998" target="_blank" rel="noopener">BTS Analyses Biologiques</a></h3>
+                            <p>Lycée Marie-Curie, France</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Contact -->
+    <footer id="contact" class="footer">
+        <div class="container footer-inner">
+            <div class="footer-text">
+                <h2>Travaillons ensemble</h2>
+                <p>Vous avez un projet ou une opportunité ? Écrivez-moi, je réponds rapidement.</p>
+            </div>
+            <div class="footer-actions">
+                <a href="mailto:marielou.plevasseur@gmail.com" class="btn btn-primary btn-lg">
+                    marielou.plevasseur@gmail.com
+                </a>
+                <div class="footer-social">
+                    <a href="https://github.com/MarieLouPLevasseur" target="_blank" rel="noopener">
+                        <img src="./images/github.png" alt="GitHub"> GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/marielou-prince-levasseur-web-developpeur/" target="_blank" rel="noopener">
+                        <img src="./images/linkedin.png" alt="LinkedIn"> LinkedIn
+                    </a>
+                    <a href="./doc/CV Marie Lou Prince-Levasseur.pdf" target="_blank">
+                        <img src="./images/cv_logo.png" alt="CV"> CV PDF
+                    </a>
+                </div>
+            </div>
         </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Marie Lou Prince-Levasseur — Tous droits réservés</p>
+        </div>
+    </footer>
 
-
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
-        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous">
-    </script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
