@@ -288,7 +288,54 @@ a:hover {
     font-size: 1.25rem;
     font-weight: 500;
     color: var(--color-text-muted);
-    margin-bottom: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.hero-experience {
+    font-size: 1.05rem;
+    color: var(--color-dark);
+    margin-bottom: 1rem;
+}
+
+.hero-experience strong {
+    color: var(--color-accent);
+    font-weight: 700;
+}
+
+.hero-highlights {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    margin-bottom: 2rem;
+    padding: 0;
+}
+
+.hero-highlight-value {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: var(--color-dark);
+    line-height: 1.2;
+}
+
+.hero-highlight-label {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--color-text-muted);
+    margin-top: 0.2rem;
+}
+
+.hero-highlights li {
+    flex: 1;
+    min-width: 120px;
+    padding: 1rem 1.1rem;
+    background: var(--color-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
 }
 
 .hero-description {
@@ -1019,6 +1066,19 @@ a:hover {
 
     .hero-description {
         margin-inline: auto;
+    }
+
+    .hero-experience {
+        text-align: center;
+    }
+
+    .hero-highlights {
+        justify-content: center;
+    }
+
+    .hero-highlights li {
+        flex: 0 1 auto;
+        min-width: 140px;
     }
 
     .hero-actions {

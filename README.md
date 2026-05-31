@@ -2,9 +2,9 @@
 
 # Marie Lou Prince-Levasseur
 
-### Développeuse web · PHP · JavaScript
+### Développeuse web · expérience pro depuis 2023 · PHP · JavaScript
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-voir_le_site-e94560?style=for-the-badge)](https://github.com/MarieLouPLevasseur/MarieLouPLevasseur)
+[![Portfolio](https://img.shields.io/badge/Portfolio-voir_le_site-e94560?style=for-the-badge)](https://marielouplevasseur.github.io/MarieLouPLevasseur/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marielou-prince-levasseur-web-developpeur/)
 [![Email](https://img.shields.io/badge/Email-marieLou.plevasseur%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:marielou.plevasseur@gmail.com)
 
@@ -23,24 +23,25 @@
 
 ## Technologies
 
-**Back-end**
+**En entreprise web** *(depuis 2023)*
+
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" width="44" height="44" alt="Laravel" title="Laravel"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" width="44" height="44" alt="Vue.js 3" title="Vue.js 3"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cakephp/cakephp-original-wordmark.svg" width="44" height="44" alt="CakePHP" title="CakePHP"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="44" height="44" alt="Docker" title="Docker"/>
+</p>
+
+**Formation & projets personnels**
 
 <p>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" width="44" height="44" alt="PHP" title="PHP"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" width="44" height="44" alt="Laravel" title="Laravel"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/symfony/symfony-original-wordmark.svg" width="44" height="44" alt="Symfony" title="Symfony"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cakephp/cakephp-original-wordmark.svg" width="44" height="44" alt="CakePHP" title="CakePHP"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" width="44" height="44" alt="MySQL" title="MySQL"/>
-</p>
-
-**Front-end**
-
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" width="44" height="44" alt="Vue.js 3" title="Vue.js 3"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/symfony/symfony-original-wordmark.svg" width="44" height="44" alt="Symfony" title="Symfony"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width="44" height="44" alt="React" title="React"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="44" height="44" alt="JavaScript" title="JavaScript"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" width="44" height="44" alt="HTML5" title="HTML5"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" width="44" height="44" alt="CSS3" title="CSS3"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="44" height="44" alt="JavaScript" title="JavaScript"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" width="44" height="44" alt="Bootstrap" title="Bootstrap"/>
 </p>
 
@@ -48,13 +49,15 @@
 
 ## Projets
 
-| Projet | Techno | 
-|--------|-------------------
-| **Livres O'Trésor** | Full stack en équipe · Symfony + React · API REST · JWT · Redux 
-| **Cinéma** | Symfony · rôles utilisateur · favoris · tests unitaires 
-| **Météo** | Symfony · préférences · logique métier 
-| **Pokédex** | PHP · MySQL · routing custom (AltoRouter) 
-| **Material — parc matériel chimie** | Symfony · React · inventaire lycée 
+*Détails sur le [portfolio en ligne](https://marielouplevasseur.github.io/MarieLouPLevasseur/).*
+
+| Projet | Technologies |
+|--------|----------------|
+| **Livres O'Trésor** | Symfony, React, API REST, JWT, Redux |
+| **Cinéma** | Symfony, MySQL, JWT, tests unitaires |
+| **Météo** | PHP, Symfony |
+| **Pokédex** | PHP, MySQL, AltoRouter |
+| **Material** — parc matériel chimie | Symfony, React *(projet privé)* |
 
 
 ---

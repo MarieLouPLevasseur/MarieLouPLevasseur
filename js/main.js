@@ -1,6 +1,39 @@
 (function () {
     'use strict';
 
+    const CAREER_START_YEAR = 2023;
+
+    function getYearsOfExperience() {
+        return new Date().getFullYear() - CAREER_START_YEAR;
+    }
+
+    function formatYearsFr(years) {
+        if (years <= 0) return 'moins d\'un an';
+        if (years === 1) return '1 an';
+        return `${years} ans`;
+    }
+
+    function initExperienceYears() {
+        const years = getYearsOfExperience();
+        const label = formatYearsFr(years);
+
+        document.querySelectorAll('[data-exp-years]').forEach((el) => {
+            el.textContent = label;
+        });
+
+        const heroExp = document.querySelector('[data-exp-hero]');
+        if (heroExp) {
+            heroExp.textContent = `${label} d'expérience professionnelle`;
+        }
+
+        const badge = document.querySelector('[data-exp-badge]');
+        if (badge) {
+            badge.textContent = `${label} d'expérience · Développement web`;
+        }
+    }
+
+    initExperienceYears();
+
     const header = document.querySelector('.site-header');
     const navToggle = document.querySelector('.nav-toggle');
     const navLinks = document.querySelector('.nav-links');
