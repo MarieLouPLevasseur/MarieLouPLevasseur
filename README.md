@@ -71,9 +71,7 @@
 | | |
 |---|---|
 | 📧 | [marielou.plevasseur@gmail.com](mailto:marielou.plevasseur@gmail.com) |
-| 💼 | [LinkedIn](https://www.linkedin.com/in/marielou-prince-levasseur-web-developpeur/) |
-| 📄 | [CV (PDF)](./doc/CV%20Marie%20Lou%20Prince-Levasseur.pdf) |
-
+| 💼 | [LinkedIn](https://fr.linkedin.com/in/marielou-prince-levasseur-web-developpeur) |
 ---
 
 <div align="center">
